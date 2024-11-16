@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Booking Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            
+        }
+        
+        form {
+            width: 300px;
+            margin: auto;
+	    font-family: Arial, sans-serif; 
+        align-items: center;
+        }
+
+button {
+            background-color: blue;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+<div>
+    
+
+    <form>
+        <h1>Customer Travel Booking Form</h1>
+        <h4>Name:</h4>
+        <input type="text" name="name" required><br>
+
+        <h4>Address:</h4>
+        <input type="text" name="address" required><br>
+
+        <h4>Contact No:</h4>
+        <input type="tel" name="contact" required><br>
+
+        <h4>Gender:</h4>
+        <input type="radio" name="gender" value="Male" required> Male
+        <input type="radio" name="gender" value="Female" required> Female<br>
+
+        <h4>Preferred Season:</h4>
+        <input type="checkbox" name="season" value="Summer"> Summer
+        <input type="checkbox" name="season" value="Winter"> Winter
+        <input type="checkbox" name="season" value="Rainy"> Rainy<br>
+
+        <h4>Location Type:</h4>
+        <select name="location">
+            <option value="Beach">Beach</option>
+            <option value="Mountain">Mountain</option>
+            <option value="City">City</option>
+        </select><br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</div>
+</body>
+</html>
